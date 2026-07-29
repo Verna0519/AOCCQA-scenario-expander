@@ -1,0 +1,11 @@
+interface:
+  display_name: "AOCCQA Scenario Expander"
+  short_description: "對照合格 baseline,前景化狀態流轉與身分別,補可追溯覆蓋缺口"
+  default_prompt: "Use $aoccqa-scenario-expander to compare my confirmed requirements and country rules against a QUALIFIED existing Test Case baseline. Foreground state-transition (狀態流轉) and role/identity (身分別) coverage, then propose only evidence-backed additions, enhancements, or parameterization. If no qualified baseline exists, return Needs Baseline and route to aoccqa-tc-generator."
+policy:
+  products:
+    - "chatgpt"
+    - "codex"
+    - "api"
+    - "atlas"
+  allow_implicit_invocation: true
