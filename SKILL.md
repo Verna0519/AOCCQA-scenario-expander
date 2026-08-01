@@ -1,6 +1,7 @@
 ---
 name: aoccqa-scenario-expander
-version: 1.0.0
+metadata:
+  version: 1.0.2
 description: >
   Compare confirmed requirements and normalized product/country rules against a QUALIFIED existing Test Case
   baseline, and draft only evidence-backed supplementary cases, existing-case enhancements, or parameterized
